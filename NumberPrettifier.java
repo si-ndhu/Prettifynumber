@@ -31,7 +31,7 @@ public class NumberPrettifier {
     public static void main(String[] args) {
         System.out.println(prettifyNumber(1000000));       // Output: 1M
         System.out.println(prettifyNumber(2500000.34));    // Output: 2.5M
-        System.out.println(prettifyNumber(532.4));           // Output: 532
+        System.out.println(prettifyNumber(532));           // Output: 532
         System.out.println(prettifyNumber(1123456789));    // Output: 1.1B
         System.out.println(prettifyNumber(1000000000000.0));  // Output: 1T
     }
